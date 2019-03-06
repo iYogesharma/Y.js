@@ -1,6 +1,5 @@
 (function(globals ){
     dome=function (selector) {
-        console.log(this)
        return this.dome.prototype.get(selector);
     }
 
