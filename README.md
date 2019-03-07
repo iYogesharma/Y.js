@@ -33,5 +33,5 @@ To get value ond text of element:
 To add and remove class from element:
 
 ```sh
-    Y('element').addClass('class name); or   Y('element').addClass({'className1',className2',...});
-    Y('element').removeClass('class name); or   Y('element').removeClass({'className1',className2',...});
+    Y('element').addClass('class name); or   Y('element').addClass(['className1',className2',...,'classNameN]);
+    Y('element').removeClass('class name); or   Y('element').removeClass(['className1',className2',...,'classNameN]);
